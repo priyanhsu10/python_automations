@@ -41,4 +41,4 @@ def track_battery():
 
 
 if __name__ == "__main__":
-    notify("test", "this is notification")
+    track_battery()
