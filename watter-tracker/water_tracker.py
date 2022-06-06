@@ -9,7 +9,7 @@ def notify(message, title):
 
 
 def track_watter():
-    soundPath = "/Users/priyanshuparate/projects/python/python_automations/water-tracker/water-filled-cup-9901.mp3"
+    soundPath = "/Users/priyanshuparate/projects/python/python_automations/watter-tracker/water-filled-cup-9901.mp3"
     glasscount = 8
     currenthr = datetime.datetime.now().hour
     while True:
