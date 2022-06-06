@@ -13,6 +13,8 @@ def track_watter():
     glasscount = 8
     currenthr = datetime.datetime.now().hour
     while True:
+        if glasscount == 0:
+            break
         if currenthr > 9 and currenthr < 11 and glasscount > 0:
 
             notify("drink one glass of watter",
