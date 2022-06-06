@@ -29,7 +29,7 @@ def track_battery():
 
         if not battery.power_plugged:
             # Optimazation for proper cpu utilizaiton
-              if percent > 30:
+            if percent > 30:
                 time.sleep(30*60)
 
             # check for less than 20 persent and raise alarm
